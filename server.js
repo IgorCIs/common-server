@@ -32,7 +32,7 @@ const PORT = 443
 
 if (+PORT === 443) {
   const read = fs.readFileSync
-  const sslPath = path.join(__dirname, "./serts")
+  const sslPath = path.join(__dirname, "./serts/")
 
   const httpsOptions = {
     key: read(`${sslPath}private.key`, "utf8"),
