@@ -4,7 +4,8 @@
   "description": "backend for products",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "wellknown": "nodemon --exec babel-node index.js",
+    "ssl": "nodemon --exec babel-node index.js"
   },
   "author": "",
   "license": "ISC",
